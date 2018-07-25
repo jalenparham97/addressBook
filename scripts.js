@@ -43,7 +43,7 @@ book.add(new Contact("Jeff", "000-3333", "john@gmail.com", "dad"));
 book.add(new Contact("Joe", "000-3333", "john@gmail.com", "dad"));
 
 while (true) {
-  let userPrompt = prompt(`Add, Delete, Print, Quit`);
+  let userPrompt = prompt(`Add, Delete, Update, Print, Quit`);
   if (userPrompt.toLowerCase() === "add") {
    book.add(new Contact(
     this.name = prompt(`Enter Name`),
